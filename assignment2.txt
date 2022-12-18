@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title> Web Engineering Assignment#2 </title>
+
+   <!-- This is a example of external CSS used to call separate CSS file -->
+
+          <link rel="stylesheet"
+href="index.css">
+
+</head>
+
+<!-- This is a example of internal CSS page used to style it uniquely-->
+<style>
+     .class1 {
+          text-align: center;
+       }
+        .class2 {
+             color:#008000;
+             font-size: 55pt;
+             font-weight: normal;
+       }
+   </style>
+
+</head>
+<body style="background-color: white;">
+         
+<h1 style="text-align:center; color:blue"> HTML table with rows and columns. </h1>
+
+         <h2 <strong> Using three types of CSS for one setup. </h2>
+         <div
+style="font-size:20pt" ,
+class="myDiv">
+       <p> Name: Haseeb Javed </p>
+       <p> Subject: Web Engineering </p> 
+       <p> ID: 16890 </p>
+</div>
+    <!-- Using Inline CSS-->
+
+    <p style="color:#112244; font-size:60px; text-align:center; font-style:oblique ">
+
+        #1 Now Using Inline CSS example for test text. </p>
+
+    <!-- Example of Inline CSS used in a paragraph tag style -->
+
+
+
+    <table class="center" , style="width:25%" border="2pt">
+
+
+        <tr>
+            <th>Serial Number</th>
+            <th>URL</th>
+            <th>Website Names</th>
+            <th>Website logos</th>
+        </tr>
+        <tr>
+            <td>Number:1</td>
+            <td> <a href="https://www.google.com/"target="_blank">Google</a></td>
+            <td>Google</td>
+            <td> <img src='images/google.png'height="60px" width="100px"/> </td>
+       </tr>
+        <tr>
+            <td>Number:2</td>
+            <td> <a href="https://www.gta5-mods.com/"target="_blank">GtaV Mods</a></td>
+            <td>GtaV Mods</td>
+            <td> <img src='images/gta v mods.png'height="60px" width="100px"/> </td>
+       </tr>
+       <tr>
+            <td>Number:3</td>
+            <td> <a href="https://www.nexusmods.com/"target="_blank">Nexusmods</a></td>
+            <td>Nexusmods</td>
+            <td> <img src='images\nexusmod.jpg'height="60px" width="100px"/> </td>
+       </tr>
+       <tr>
+            <td>Number:4</td>
+            <td> <a href="https://store.steampowered.com/"target="_blank">steam</a></td>
+            <td>Steam</td>
+            <td> <img src='images\steam.jpg'height="60px" width="100px"/> </td>
+       </tr>
+      
+   </table>
+
+    <div class="class1">
+
+        <div class="class2">#2 As Follows</div>
+
+        <div class="class3">
+            Internal CSS is used to style a page specifically.!
+        </div>
+    </div>
+
+    <!-- This is a sample of how to call a different CSS file (External CSS example) -->
+
+    <div class="dashed-border">
+
+        <div id="external">
+
+            <h1> #3 As Follows </h1>
+
+            <p class="external2">
+                External CSS is done
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
+          

@@ -1,0 +1,39 @@
+html
+<!DOCTYPE html>
+<html>
+<head>
+     <title> Web Engineering Assignment#2 </title>
+
+<!-- This is a example of internal CSS page used to style it uniquely-->
+<style>
+     .class1 {
+          text-align: center;
+       }
+        .class2 {
+             colour: #00008B;
+             font-size: 55pt;
+             font-weight: normal;
+       }
+   </style>
+
+   <!-- This is a example of external CSS used to call separate CSS file -->
+
+          <link rel="stylesheet"
+href="index.css">
+
+</head>
+<body style="background-colour: white;">
+         
+         <h1
+style="text-align; center; colour: #00FFFF"> HTML table with rows and columns. </h1>
+
+         <h2 <strong> using three types of CSS for one setup. </h2>
+         <div
+style="font-size:20pt" ,
+class="myDiv">
+       <p> Name: Haseeb Javed </p>
+       <p> Subject: Web Engineering </p> 
+       <p> ID: 16890 </p>
+</div>
+
+          
